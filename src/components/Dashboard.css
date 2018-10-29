@@ -1,0 +1,26 @@
+.dashboardHeader{
+  margin: 0;
+  display: flex;
+  width: 100%;
+}
+
+.accountBox {
+  padding: 10px;
+  border: 1px solid white;
+  width: 150px;
+  margin: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.accountBox.selected{
+  background-color: white;
+  color: black;
+}
+.accountBoxPlus {
+  width: 20px;
+  margin: 20px 0;
+}
+.accountBox:hover {
+  background-color: white;
+  color: black;
+}

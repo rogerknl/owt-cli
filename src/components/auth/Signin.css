@@ -1,0 +1,9 @@
+.singinForm {
+  margin:auto;
+  padding:20px;
+  width: 400px;
+}
+.signinFieldset {
+  display: flex;
+  border: none;
+}

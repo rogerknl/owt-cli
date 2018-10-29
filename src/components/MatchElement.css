@@ -1,0 +1,50 @@
+.matchBox{
+  border: 1px solid white;
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  justify-content: space-between;
+  
+}
+.matchBoxDataM{
+  width: 60%;
+}
+.matchBocVodIframe{
+  width: 40%;
+  padding:0;
+  margin:auto;
+  text-align: center;
+}
+.matchBocVodIframe iframe{
+  max-width:  100%;
+  height: 100%;
+}
+.matchBoxDataHero{
+  width: 100%;
+  margin-top:20px;
+}
+.matchBoxDataHGrid{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin-top: 10px;
+}
+.matchBoxDataHGridElement{
+  margin-top:5px;
+  color: grey;
+}
+.matchBoxDataElementNumber{
+  font-weight: bold;
+  font-size: 17px;
+  color:white;
+}
+.selectHeroButton{
+  text-transform: capitalize;
+  background-color: black;
+  border: none;
+  color:white;
+}
+.selectHeroButton:hover{
+  cursor: pointer;
+}

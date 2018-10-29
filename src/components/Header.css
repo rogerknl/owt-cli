@@ -1,0 +1,27 @@
+.header {
+  background-color: black;
+}
+.header .NavBar{
+  width: 80%;
+  /*height: 40px;*/
+  height: 3vh;
+  padding: 5px 5px;
+  margin: auto;
+  display:flex;
+  justify-content: space-between;
+}
+.NavBar-profileItems {
+  display: flex;
+  align-content: center;
+}
+.NavBar-profileItems a{
+  align-self: center;
+}
+.NavBar-Items {
+  display: flex;
+  align-content: center;
+}
+.NavBar-Items a{
+  align-self: center;
+}
+

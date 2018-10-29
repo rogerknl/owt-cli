@@ -1,0 +1,32 @@
+.hStatsContainer{
+  border-top: 1px solid white;
+  padding-top:10px;
+  margin-top:10px;
+  width: 100%;
+}
+.hStatsBoxData {
+  margin:auto;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hStatsBoxDataHGrid {
+  margin:5px;
+  display: Grid;
+  grid-template-columns: 33% 33% 33%;
+  margin-top: 10px;
+  width: 100%
+}
+.hStatsBoxDataHGridElement{
+  margin-top:5px;
+  color: grey;
+}
+.hStatsBoxDataElementNumber{
+  font-weight: bold;
+  font-size: 17px;
+  color:white;
+}
+.heroName {
+  text-transform: capitalize;
+  font-size: 20px;
+}
